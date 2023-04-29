@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "audio_systems",
+  "info": {
+    "singularName": "audio-system",
+    "pluralName": "audio-systems",
+    "displayName": "audio_system",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "make": {
+      "type": "string"
+    },
+    "price": {
+      "type": "float"
+    },
+    "effect": {
+      "type": "integer"
+    }
+  }
+}

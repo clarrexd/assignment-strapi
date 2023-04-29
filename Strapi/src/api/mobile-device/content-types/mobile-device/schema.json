@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mobile_devices",
+  "info": {
+    "singularName": "mobile-device",
+    "pluralName": "mobile-devices",
+    "displayName": "mobile",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "make": {
+      "type": "string"
+    },
+    "price": {
+      "type": "float"
+    },
+    "screenType": {
+      "type": "string"
+    }
+  }
+}
